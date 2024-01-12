@@ -1,0 +1,51 @@
+body{
+    background-image: url(images/paradise.jpg);
+    background-size: cover;
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+   
+	
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #0000007a;
+	color: white;
+    box-shadow: 0px 1px 20px 7px rgb(255 255 255), 0px 0px 20px 13px rgb(0 255 120);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #53af57;
+}

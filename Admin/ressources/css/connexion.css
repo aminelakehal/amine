@@ -1,0 +1,94 @@
+/* =============== FORM INSCRIPTION =============== */
+.inscription-header {
+    background-image: url(../images/inscription-header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    max-width: 100%;
+}
+
+.inscription, .connexion {
+    margin: 50px;
+}
+
+#inscription-cgu {
+    margin-bottom: 10px;
+}
+
+#inscription-mail, #inscription-name, #inscription-prenom, #inscription-mdp {
+    margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+
+    #inscription-name {
+        padding-left: 5px;
+    }
+    
+    #inscription-prenom {
+        padding-right: 5px;
+    }
+}
+
+#inscription-already {
+    font-style: italic;
+}
+
+
+/* =============== FORM CONNEXION =============== */
+.connexion-header {
+    background-image: url(../images/inscription-header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    max-width: 100%;
+}
+
+.btn-connexion {
+    width: 100%;
+    text-align: center;
+}
+
+.form-connexion {
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.social-connexion {
+    margin: 16px 16px 0 16px;
+    font-style: italic;
+}
+
+.social-connexion i {
+    margin-top: 16px;
+    font-size: x-large;
+}
+
+.fa-google {
+    color: #dd4b39;
+}
+
+.fa-facebook {
+    color: #3b5999;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-github {
+    color: #131418;
+}
+
+/* @media (max-width: 576px) {
+    .fab {
+        width: 50%;
+        height: 50%;
+    }
+} */

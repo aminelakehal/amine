@@ -1,0 +1,346 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+  .btn-ho {
+    margin-left: 1310px;
+    text-transform: uppercase;
+    background-color: #0a4d99;
+    color: #fdffff;
+    border: 1px solid#2ebdc4;
+    /* outline: black; */
+    box-shadow: 0 4px 8px 11px rgb(0 109 225 / 2%), 0 6px 20px 0 rgb(0 99 157);
+    transition: 0.4s;
+}
+
+.btn-ho:hover {
+    /* border: 1px solid #fff; */
+    color: #fff;
+    background-color: #602ec4;
+}
+
+.btn-ho:active{
+    transform: scale(1.05);
+}
+
+/* .btn:focus {
+    outline : black;
+} */
+
+.see-more {
+    margin: 10px 10px 10px 0;
+}
+  .styled-paragraph {
+    border: 2px solid #3498db;
+    padding: 29px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 1329px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+  
+.w-100 {
+    width: 100%!important;
+    height: 444px !important;
+  }
+/* <========== img header=============> */
+
+@media screen and (max-width: 768px) {
+    .index-header {
+        height: 130vh;
+    }
+
+   
+}
+
+header img {
+    width: 30%;
+
+}
+
+@media screen and (max-width: 800px) {
+    header img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header img {
+        width: 60%;
+    }
+}
+
+.navbar-brand {
+    width: 20%;
+}
+
+/* ============ GLOBAL ============ */
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+p {
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    width: 90%;
+    margin: 20px;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #2ebdc4;
+    width: 200px;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.btn-hover  {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    color: #2ebdc4;
+    border: 1px solid#2ebdc4;
+    outline: black; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;}  
+
+.btn-hover:hover {
+    /* border: 1px solid #fff; */
+    color: #fff;
+    background-color: #27c5d3;
+}
+
+.btn-hover:active{
+    transform: scale(1.05);
+}
+
+
+
+.see-more {
+    margin: 10px 10px 10px 0;
+}
+/* ============ RESERVATIONS ============ */
+.reservation {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    
+}
+
+.reservation h2 {
+    color: #fff;
+}
+
+.btn-reservation {
+    text-align: center;
+    width: 100%;
+}
+
+#connexion {
+    border-radius: 50px;
+    border: 1px solid #2ebdc4;
+    padding: 8px;
+    max-height: 42px;
+    max-width: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#connexion:hover {
+    color: #fff;
+    background-color: #2ebdc4;
+    
+}
+
+#connexion:active{
+    transform: scale(1);
+}
+
+@media screen and (max-width: 1200px) {
+    #connexion {
+        margin-left: -8px;
+    }
+}
+
+#datepicker:hover, #datepicker1:hover {
+    cursor: pointer;
+}
+
+.fa-calendar-alt {
+    position: absolute;
+    margin-left: -32px;
+    margin-top: 3px;
+    z-index: 1;
+    color: rgb(131, 131, 131);
+    background-color: white;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+
+/* ============ VOYAGES ============ */
+.best-travels {
+    margin: 20px;
+}
+
+.pack-title {
+    padding: 5px;
+}
+
+.pack-title h3 {
+    text-align: center;
+}
+
+.pack-content span {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    font-weight: 700;
+    padding: 2px;
+
+}
+
+.card-travel {
+    margin-bottom: 25px;
+    border-radius: 10px;
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    box-shadow: 5px 5px 2.5px rgb(235, 235, 235);
+    transition: transform .4s;
+    text-align: center;
+}
+
+.card-travel:hover {
+    transform: scale(1.1);
+}
+
+.pack-content {
+    position: relative;
+}
+
+.image {
+    border-radius: 0 0 10px 10px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pack-content:hover .image {
+    opacity: 0.3;
+}
+
+.pack-content:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.text .btn:hover {
+    border: none;
+}
+
+/* ============ FOOTER ============ */
+footer {
+    background: linear-gradient(135deg, #2ebdc4 0%, #0f0f1a 100%);
+    color: #fff;
+    text-align: center;
+   margin-top: 169px !important;
+  
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 20px 20px 0 0;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.social i {
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.social a {
+    color: #fff;
+}
+
+#fb:hover {
+    color: #3b5999;
+}
+
+#insta:hover {
+    color: #e4405f;
+} 
+
+#twitter:hover {
+    color: #55acee;
+}
+
+#git:hover {
+    color: #111010;
+}
+  
+
+  
